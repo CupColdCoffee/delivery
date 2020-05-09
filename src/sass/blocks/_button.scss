@@ -14,5 +14,17 @@
     margin-top: 44px;
     &:focus {
         outline: none;    //     border: none;
+    }
+    &_calculating {
+        display: block;
+        margin: 0 auto;
+        width: 230px;
+        height: 57px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 39px;
+        // color: #ffffff;
     }    
 }
