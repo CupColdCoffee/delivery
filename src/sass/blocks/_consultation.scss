@@ -1,0 +1,39 @@
+.consultation {
+    position: relative;
+    min-height: 400px;
+    &__title {
+        text-align: center;
+        margin-top: 56px;
+        h2 {
+        font-family: Roboto;
+        font-size: 28px;
+        line-height: 23px;
+        font-weight: 400;
+        color: #3a3a3a;  
+        } 
+    }
+    &__round {
+        position: relative;
+        margin: 0 auto;
+        width: 102px;
+        height: 102px;
+        border: 1.0px solid $main-color;
+        border-radius: 100%;
+        margin-top: 20px;
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__form {
+        text-align: center;
+        padding-top: 68px;
+        position: absolute;
+        top: 24%;
+        width: 1140px;
+        height: 166px;
+        border: 1.0px solid #898989;
+    }
+}

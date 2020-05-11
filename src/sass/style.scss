@@ -8,6 +8,9 @@
 }
 * {
     font-family: sans-serif;
+    h2 {
+        margin: 0 0;
+    }
 }
 @font-face {
     font-family: "Roboto";
@@ -53,8 +56,10 @@
 }
 
 @import 'blocks/button';
+@import 'blocks/forms';
 @import 'blocks/promo';
 @import 'blocks/advantages';
 @import 'blocks/info';
 @import 'blocks/description';
 @import 'blocks/prices';
+@import 'blocks/consultation';
