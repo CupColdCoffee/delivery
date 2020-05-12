@@ -1,9 +1,9 @@
 .consultation {
     position: relative;
     min-height: 400px;
+    padding: 56px 0 58px 0;
     &__title {
         text-align: center;
-        margin-top: 56px;
         h2 {
         font-family: Roboto;
         font-size: 28px;
@@ -15,19 +15,24 @@
     &__round {
         position: relative;
         margin: 0 auto;
+        margin-top: 20px;
         width: 102px;
         height: 102px;
         border: 1.0px solid $main-color;
         border-radius: 100%;
         margin-top: 20px;
+        z-index: 80;
         img {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            z-index: 40;
         }
     }
     &__form {
+        margin-top: 71px;
+        position: relative;
         text-align: center;
         padding-top: 68px;
         position: absolute;
@@ -35,5 +40,27 @@
         width: 1140px;
         height: 166px;
         border: 1.0px solid #898989;
+        &:before {
+            content: "";
+            position: absolute;
+            top: -5px;
+            left: 506px;
+            margin: 0 auto;
+            display: block;
+            width: 126px;
+            height: 10px;
+            background-color: #fff;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 464px;
+            margin: 0 auto;
+            display: block;
+            width: 208px;
+            height: 10px;
+            background-color: #fff;
+        }
     }
 }
