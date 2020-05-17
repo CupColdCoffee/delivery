@@ -1,0 +1,92 @@
+.footer {
+    height: 701px;
+    background-color: #25333c;
+    &__info {
+        display: flex;
+    }
+    &__logo {
+        display: flex;
+        margin-top: 24px;
+        margin-right: 280px;
+        &-img {
+            margin-right: 43px;
+            img {
+                width: 68px;
+                height: 71px;
+            }
+        }
+        &-descr {
+            width: 410px;
+            margin-top: 30px;
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+    }
+    &__contacts {
+        margin-top: 42px;
+        text-align: right;
+        width: 166px;
+        &-info {
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 14px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+        &-phone {
+            font-family: Roboto;
+            font-size: 19px;
+            line-height: 24px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+    }
+    hr {
+        margin-top: 26px;
+        width: 1171px;
+        height: 1px;
+        opacity: 0.3;
+        border-bottom: none;
+    }
+    &__descr {
+        display: flex;
+        align-items: center;
+    }
+    &__garant {
+        opacity: 0.6;
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-right: 223px;
+    }
+    &__docs {
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        text-decoration: underline;
+        color: #ec644b;
+        margin-right: 456px;
+    }
+    &__integration {
+        span {
+            opacity: 0.6;
+            font-family: Roboto;
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300;
+            color: #ffffff;
+            margin-right: 9px;
+        }
+        img {
+            width: 30px;
+            height: 32px;
+            opacity: 0.78;
+        }
+    }
+}

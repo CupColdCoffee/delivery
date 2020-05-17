@@ -1,11 +1,24 @@
 .feed__form {
-    input {
+    input, textarea {
         width: 268px;
         height: 45px;
         background-color: #ffffff;
         border: 1.0px solid rgba(0,0,0,0.21);
         border-radius: 21px;
         margin-right: 5px;
-        padding-left: 28px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #101010;
+    }
+    .input-message {
+        margin-top: 8px;
+        width: 813px;
+        height: 71px;
+        border-radius: 10px;
+        resize: none;
     }
 }

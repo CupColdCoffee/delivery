@@ -1,0 +1,32 @@
+.reviews {
+    padding: 51px 0 65px 0;
+    min-height: 470px;
+    &-item {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 601px;
+        &__img {
+            text-align: center;
+            margin-top: 31px;
+        }
+        &__descr {
+            margin-top: 19px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        &__title {
+            font-family: Roboto;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: #3a3a3a;
+        }
+        &__text {
+            margin-top: 5px;
+            font-size: 14.1px;
+            font-weight: 300;
+        }
+    }
+}

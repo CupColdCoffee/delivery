@@ -1,0 +1,41 @@
+.questions {
+    min-height: 438px;
+    padding: 62px 0 79px 0;
+    background: url(../../img/bg_consultation.jpg) center (center/cover) no-repeat fixed;
+    &__name {
+        margin: 0 auto;
+        text-align: center;
+        width: 896px;
+        height: 68px;
+        background-color: #25333c;
+    }
+    &__title {
+        height: 19px;
+        h2{
+            font-family: Roboto;
+            font-size: 19px;
+            line-height: 51px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+    &__subtitle {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 51px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__form {
+        margin: 0 auto;
+        padding: 18px 42px 25px 41px;
+        height: 229px;
+        width: 896px;
+        background-color: #e0ded8;
+        input {
+            margin-right: 0;
+        }
+    }
+}

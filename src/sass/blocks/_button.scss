@@ -27,14 +27,21 @@
         margin-top: 39px;
     }    
     &_prices {
-        // display: block;
         margin: 0 auto; 
         margin-top: 25px;
     }
-    &_submit {
+    &_consultation {
         transform: translateY(28px);
         display: block;
         margin: 0 auto;
         z-index: 50;
+    }
+    &_questions {
+        display: block;
+        margin: 0 auto;
+        margin-top: 17px;
+    }
+    &_callback {
+        margin: 38px 0 0 18px;
     }
 }
