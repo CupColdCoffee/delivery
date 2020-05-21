@@ -1,32 +1,60 @@
 .reviews {
     padding: 51px 0 65px 0;
     min-height: 470px;
-    &-item {
-        display: flex;
-        flex-direction: column;
+    &__inner {
+        position: relative;
+    }
+    &-sl {
+        scale: 0.55;
+        width: 601px;
+        opacity: 0.2;
+    }
+    &__img {
+        display: block;
         margin: 0 auto;
-        max-width: 601px;
-        &__img {
-            text-align: center;
-            margin-top: 31px;
+        margin-top: 31px;
+    }
+    &__title {
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #3a3a3a;
+        margin-top: 19px;
+        text-align: center;
+    }
+    &__text {
+        font-size: 14.1px;
+        font-weight: 300;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 7px;
+    }
+
+    .slick-arrow {
+        position: absolute;
+        border: none;
+        background-color: #fff;
+        top: 72px;
+        img {
+            width: 14px;
+            height: 46px;
         }
-        &__descr {
-            margin-top: 19px;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
-        &__title {
-            font-family: Roboto;
-            font-size: 18px;
-            line-height: 22px;
-            font-weight: 700;
-            color: #3a3a3a;
-        }
-        &__text {
-            margin-top: 5px;
-            font-size: 14.1px;
-            font-weight: 300;
+        &:focus {
+            outline: none;    //     border: none;
         }
     }
+    .slick-prev {
+        left: 41%;
+        z-index: 9999;
+    }
+    .slick-next {
+        right: 41%;
+    }
+    .slick-center {
+        scale: 1;
+        opacity: 1;
+        transition: all 2s;
+    }
 }
+
