@@ -13,6 +13,9 @@
         margin: 0 0;
     }
 }
+body {
+    position: relative;
+}
 @font-face {
     font-family: "Roboto";
     src: url(../fonts/Roboto-Regular.ttf);
@@ -78,3 +81,4 @@
 @import 'blocks/reviews';
 @import 'blocks/questions';
 @import 'blocks/footer';
+@import 'blocks/pageup';

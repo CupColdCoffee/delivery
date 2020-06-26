@@ -1,5 +1,6 @@
 .feed__form {
     input, textarea {
+        position: relative;
         width: 268px;
         height: 45px;
         background-color: #ffffff;
@@ -20,5 +21,11 @@
         height: 71px;
         border-radius: 10px;
         resize: none;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
     }
 }

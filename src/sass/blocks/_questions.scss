@@ -31,11 +31,16 @@
     &__form {
         margin: 0 auto;
         padding: 18px 42px 25px 41px;
-        height: 229px;
+        min-height: 229px;
         width: 896px;
         background-color: #e0ded8;
         input {
             margin-right: 0;
+        }
+        label {
+            // display: none;
+            // width: 0;
+            // height: 0;
         }
     }
 }
